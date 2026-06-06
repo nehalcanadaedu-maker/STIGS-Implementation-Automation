@@ -16,14 +16,11 @@ The script modifies the "LanmanWorkstation" (Workstation service) parameters in 
 2.  **Signature Enforcement:** It identifies the `RequireSecuritySignature` value.
 3.  **Value Update:** The script sets this DWORD to `1`. This prevents the Windows 11 client from establishing connections to file shares that do not support packet signing.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-SO-000100/remediate-WN11-SO-000100.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1482" height="432" alt="Screenshot 2025-11-27 104319" src="https://github.com/user-attachments/assets/f534594d-1127-4689-b6b0-842346834952" />
-
-<img width="2081" height="875" alt="Screenshot 2025-11-27 111405" src="https://github.com/user-attachments/assets/e8381ec0-ed10-4bfd-9080-4f3acfaa8b34" />
+<img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/79717a05-f073-48f6-9db4-456b4f74e8e3" />
 
 ---
