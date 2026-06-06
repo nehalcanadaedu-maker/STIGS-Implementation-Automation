@@ -16,14 +16,11 @@ This remediation utilizes the Group Policy Registry path to strictly enforce the
 2.  **Value Configuration:** It identifies or creates the DWORD value named `AllowBasic`.
 3.  **Enforcement:** The script sets this value to `0`. This explicitly configures the Windows Remote Management service to reject any authentication attempts using the insecure "Basic" scheme.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-CC-000345/remediate-WN11-CC-000345.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1865" height="339" alt="Screenshot 2025-11-25 094429" src="https://github.com/user-attachments/assets/6e775a02-5c9e-47d1-95dd-a3d37bf30cb4" />
-
-<img width="2097" height="804" alt="Screenshot 2025-11-25 101541" src="https://github.com/user-attachments/assets/d71e0d85-0ab7-4251-bbe8-2371a1819336" />
+<img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/38a25924-35c6-4f04-b190-05ad439744c5" />
 
 ---
