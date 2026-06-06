@@ -1,30 +1,3 @@
-<#
-.SYNOPSIS
-    This PowerShell script enables Script Block Logging to ensure malicious PowerShell activity is captured in the event log.
-
-.NOTES
-    Author          : Aniket Agarwal
-    LinkedIn        : linkedin.com/in/aniket-agarwal-0920
-    GitHub          : github.com/Aaniket09
-    Date Created    : 2025-11-24
-    Last Modified   : 2025-11-24
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000326
-
-.TESTED ON
-    Date(s) Tested  : 2025-02-24
-    Tested By       : Aniket Agarwal
-    Systems Tested  : Windows 11 Pro (24H2)
-    PowerShell Ver. : 5.1, 7.4
-
-.USAGE
-    Run this script as Administrator.
-    Example syntax:
-    PS C:\> .\remediate_WN11-CC-000326.ps1
-#>
-
 # Define the Registry path and value details
 # This path corresponds to the Group Policy setting for Script Block Logging
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging"
