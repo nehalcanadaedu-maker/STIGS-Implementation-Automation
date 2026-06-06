@@ -57,7 +57,7 @@ The following procedure outlines the lifecycle of creating the environment, esta
 
 ## 📊 Baseline Scan Results
 
-<img width="2854" height="1404" alt="Screenshot 2025-11-23 095312" src="https://github.com/user-attachments/assets/8f9a8bd9-dd87-47fe-8f17-75d2043615f9" />
+<img width="1903" height="871" alt="image" src="https://github.com/user-attachments/assets/329559d2-c5c0-4fdd-af0e-03d93e55ad7c" />
 
 ---
 
