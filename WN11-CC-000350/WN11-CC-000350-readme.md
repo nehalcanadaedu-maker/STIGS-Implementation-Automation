@@ -16,15 +16,12 @@ This remediation utilizes the Group Policy Registry path to enforce the encrypti
 2.  **Value Configuration:** It identifies or creates the DWORD value named `AllowUnencryptedTraffic`.
 3.  **Enforcement:** The script sets this value to `0`. This explicitly configures the Windows Remote Management service to reject any connection attempts that do not utilize transport layer encryption (HTTPS).
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-CC-000350/remediate-WN11-CC-000350.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1256" height="325" alt="Screenshot 2025-11-26 104646" src="https://github.com/user-attachments/assets/557f4acf-ed28-424e-a360-baca77714c1e" />
-
-<img width="2095" height="835" alt="Screenshot 2025-11-26 105950" src="https://github.com/user-attachments/assets/7936b2d9-0316-4d43-bc5e-ae6af0bc93d0" />
+<img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/d79bb7f9-462c-407c-8246-db178713f540" />
 
 ---
 
