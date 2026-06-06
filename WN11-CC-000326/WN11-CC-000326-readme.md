@@ -16,14 +16,11 @@ The remediation script enforces a Group Policy setting via the Registry to ensur
 2.  **Enabling Logging:** It sets the `EnableScriptBlockLogging` DWORD value to `1`.
 3.  **Result:** This forces the PowerShell engine to generate Event ID 4104 in the Event Viewer for all script blocks processed.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-CC-000326/remediate-WN11-CC-000326.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1755" height="329" alt="Screenshot 2025-11-24 145006" src="https://github.com/user-attachments/assets/584792bf-136d-4bd8-8b0f-1499f5cb0639" />
-
-<img width="2088" height="742" alt="Screenshot 2025-11-24 150216" src="https://github.com/user-attachments/assets/30905ab3-6e5f-4906-992f-3d44cb77506b" />
+<img width="1912" height="867" alt="image" src="https://github.com/user-attachments/assets/42d3a243-9b8e-4c82-abe4-a95fbdc1e265" />
 
 ---
