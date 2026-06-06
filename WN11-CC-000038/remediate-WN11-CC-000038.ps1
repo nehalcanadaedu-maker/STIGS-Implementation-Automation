@@ -1,30 +1,3 @@
-<#
-.SYNOPSIS
-    This PowerShell script disables WDigest Authentication to prevent plaintext credentials from being stored in LSASS.
-
-.NOTES
-    Author          : Aniket Agarwal
-    LinkedIn        : linkedin.com/in/aniket-agarwal-0920
-    GitHub          : github.com/Aaniket09
-    Date Created    : 2025-11-24
-    Last Modified   : 2025-11-24
-    Version         : 1.0
-    CVEs            : CVE-2011-1935
-    Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000038
-
-.TESTED ON
-    Date(s) Tested  : 2025-02-24
-    Tested By       : Aniket Agarwal
-    Systems Tested  : Windows 11 Pro (24H2)
-    PowerShell Ver. : 5.1, 7.4
-
-.USAGE
-    Run this script as Administrator.
-    Example syntax:
-    PS C:\> .\remediate_WN11-CC-000038.ps1 
-#>
-
 # Define the Registry path and value details
 $regPath = "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest"
 $regName = "UseLogonCredential"
