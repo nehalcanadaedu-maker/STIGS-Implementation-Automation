@@ -1,30 +1,3 @@
-<#
-.SYNOPSIS
-    This PowerShell script prevents users from changing installation options (e.g., location, features) during software setup.
-
-.NOTES
-    Author          : Aniket Agarwal
-    LinkedIn        : linkedin.com/in/aniket-agarwal-0920
-    GitHub          : github.com/Aaniket09
-    Date Created    : 2025-11-27
-    Last Modified   : 2025-11-27
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000310
-
-.TESTED ON
-    Date(s) Tested  : 2025-02-27
-    Tested By       : Aniket Agarwal
-    Systems Tested  : Windows 11 Pro (24H2)
-    PowerShell Ver. : 5.1, 7.4
-
-.USAGE
-    Run this script as Administrator.
-    Example syntax:
-    PS C:\> .\remediate_WN11-CC-000310.ps1
-#>
-
 # Define the Registry path and value details
 # This policy restricts the Windows Installer behavior
 $regPath = "HKLM:\Software\Policies\Microsoft\Windows\Installer"
