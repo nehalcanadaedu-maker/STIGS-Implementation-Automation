@@ -16,14 +16,11 @@ The script enforces the "Always prompt for password" policy via the Terminal Ser
 2.  **Flag Configuration:** It identifies the value `fPromptForPassword`.
 3.  **Enforcement:** The script sets this DWORD to `1`. This overrides any saved credentials or auto-login settings, forcing the Windows login screen to appear every time an RDP session connects.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-CC-000280/remediate-WN11-CC-000280.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1578" height="442" alt="Screenshot 2025-11-27 152856" src="https://github.com/user-attachments/assets/46221fe7-da33-497e-af34-2c44622c669e" />
-
-<img width="2095" height="953" alt="Screenshot 2025-11-27 153826" src="https://github.com/user-attachments/assets/8a771547-140b-42e8-a77a-b78b2ed8d7b6" />
+<img width="1918" height="861" alt="image" src="https://github.com/user-attachments/assets/f0ed7ee8-ad0b-495a-879e-330eb2d69cb3" />
 
 ---
