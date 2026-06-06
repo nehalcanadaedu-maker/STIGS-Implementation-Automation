@@ -74,6 +74,6 @@ The following STIGs were identified as critical failures and selected for automa
 | [**WN11-CC-000350**]() | WinRM service must not allow unencrypted traffic | High | Blocks attackers from intercepting or tampering with WinRM remote management sessions. |
 | [**WN11-SO-000120**]() | SMB server must always perform SMB packet signing | High | Prevents relay attacks and tampering with SMB traffic. |
 | [**WN11-SO-000100**]() | SMB client must always perform SMB packet signing | High | Hardens both sides of SMB communication, reducing spoofing and MITM attack risks. |
-| [**WN11-CC-000270**]() | RDP client must not save passwords | Medium | Stops attackers from harvesting stored RDP credentials after breaching a machine. |
+| [**WN11-CC-000270**](https://github.com/nehalcanadaedu-maker/STIGS-Implementation-Automation/tree/main/WN11-CC-000270) | RDP client must not save passwords | Medium | Stops attackers from harvesting stored RDP credentials after breaching a machine. |
 | [**WN11-CC-000280**]() | RDP must always prompt for password | Medium | Ensures credentials must always be entered manually, preventing auto-use by malware. |
 | [**WN11-CC-000310**]() | Users must be prevented from changing installation options | Medium | Blocks users/malware from modifying installation settings to bypass security controls. |
