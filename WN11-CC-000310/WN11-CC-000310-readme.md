@@ -16,14 +16,11 @@ The script locks down the Windows Installer behavior via the Registry.
 2.  **Control Restriction:** It targets the `EnableUserControl` value.
 3.  **Modification:** The script sets this DWORD to `0`. This restricts the Windows Installer, preventing users from changing install parameters and forcing the installer to use the default, admin-approved settings.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-CC-000310/remediate-WN11-CC-000310.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1621" height="428" alt="Screenshot 2025-11-27 154257" src="https://github.com/user-attachments/assets/7f570800-708a-4f74-b406-5c44aea27d1c" />
-
-<img width="2110" height="840" alt="Screenshot 2025-11-27 155910" src="https://github.com/user-attachments/assets/74b95a1b-ffdb-4b6d-bc9f-ec83894da9f9" />
+<img width="1912" height="870" alt="image" src="https://github.com/user-attachments/assets/223d0c20-b4df-4451-9ca4-2c3ecf676ae2" />
 
 ---
