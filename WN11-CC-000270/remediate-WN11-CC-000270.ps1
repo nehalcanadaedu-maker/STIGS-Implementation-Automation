@@ -1,30 +1,3 @@
-<#
-.SYNOPSIS
-    This PowerShell script prevents the Remote Desktop Connection client from saving passwords to disk.
-
-.NOTES
-    Author          : Aniket Agarwal
-    LinkedIn        : linkedin.com/in/aniket-agarwal-0920
-    GitHub          : github.com/Aaniket09
-    Date Created    : 2025-11-27
-    Last Modified   : 2025-11-27
-    Version         : 1.0
-    CVEs            : N/A
-    Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000270
-
-.TESTED ON
-    Date(s) Tested  : 2025-02-27
-    Tested By       : Aniket Agarwal
-    Systems Tested  : Windows 11 Pro (24H2)
-    PowerShell Ver. : 5.1, 7.4
-
-.USAGE
-    Run this script as Administrator.
-    Example syntax:
-    PS C:\> .\remediate_WN11-CC-000270.ps1
-#>
-
 # Define the Registry path and value details
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services"
 $regName = "DisablePasswordSaving"
