@@ -16,14 +16,11 @@ The script modifies the "LanManServer" (Server service) parameters in the regist
 2.  **Signature Enforcement:** It identifies the `RequireSecuritySignature` value.
 3.  **Value Update:** The script sets this DWORD to `1`. This mandates that any client attempting to connect to this machine via SMB must support and use packet signing, or the connection is dropped.
 
-[Link to Remediation Script](https://github.com/Aaniket09/STIGS-Implementation-Automation/blob/main/WN11-SO-000120/remediate-WN11-SO-000120.ps1)
 
 ---
 
 ## 📊 Rescan Verification Report
 
-<img width="1496" height="349" alt="Screenshot 2025-11-26 111451" src="https://github.com/user-attachments/assets/7ebe7bc8-0556-418f-a943-61063fb829c1" />
-
-<img width="2105" height="798" alt="Screenshot 2025-11-26 112448" src="https://github.com/user-attachments/assets/13de0c7f-37f5-4c3e-907c-7e720fbedc73" />
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/380d7469-007e-44e0-9b58-98ccbd8165af" />
 
 ---
